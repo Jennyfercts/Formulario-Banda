@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://i.pinimg.com/1200x/2c/af/db/2cafdb25443e32d9e9c404f599b2443c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: #FFFFFF;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+form{
+    background-color: rgb(141, 0, 0);
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+}
+
+input[type="text"], input[type="number"]{
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(17, 17, 17);
+    color:#FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(46, 46, 46);
+    transition: 0.3s;
+}
